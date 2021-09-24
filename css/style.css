@@ -60,7 +60,8 @@ body{
 	display: flex;
 	min-height: 104px;
 	align-items: center;
-}
+	justify-content: space-between;
+	}
 @media (max-width: 479px){
 	header__container {
 		min-height: 70px;
@@ -493,7 +494,7 @@ body{
 /*--------------------------tagline--------------------------------------*/
 
 .tagline {
-	background: url('../img/credo-bg.png') 0 0/100% 100% no-repeat;
+	background: url('../img/fon.svg') 0 0/100% 100% no-repeat;
 	margin: 82px 0px 0px 0px;
 	position: relative;
 
